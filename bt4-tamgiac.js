@@ -22,16 +22,18 @@ function triangle() {
   var bt4result = document.getElementById("bt4-result");
 
   if (edge1 === edge2 && edge2 === edge3) {
-    bt4result.innerHTML = "Đây là Tam Giác Đều";
+    bt4result.innerHTML = "Đây Là Tam Giác Đều";
   } else if (edge1 === edge2 || edge1 === edge3 || edge2 === edge3) {
-    bt4result.innerHTML = "Đây là Tam Giác Cân";
+    bt4result.innerHTML = "Đây Là Tam Giác Cân";
   } else if (
     Math.pow(edge1, 2) === Math.pow(edge2, 2) + Math.pow(edge3, 2) ||
     Math.pow(edge2, 2) === Math.pow(edge1, 2) + Math.pow(edge3, 2) ||
     Math.pow(edge3, 2) === Math.pow(edge1, 2) + Math.pow(edge2, 2)
   ) {
-    bt4result.innerHTML = "Đây là Tam Giác Vuông";
+    bt4result.innerHTML = "Đây Là Tam Giác Vuông";
+  } else if (edge1 ===0 || edge2 === 0 || edge3 === 0) {
+    bt4result.innerHTML = "Đây Không Phải Tam Giác";
   } else {
-    bt4result.innerHTML = "Đây là Tam Giác Thường";
+    bt4result.innerHTML = "Đây Là Tam Giác Thường";
   }
 }
