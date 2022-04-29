@@ -3,3 +3,40 @@
     padding: 0;
     margin: 0;
 }
+
+.bt {
+    max-width: 1280px;
+    margin: 40px auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.box {
+    margin: 20px ;   
+}
+
+.box-result {
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bt1 input {
+    margin: 8px 0;
+}
+
+.bt2 input {
+    margin: 8px 0;
+}
+
+.bt3 input {
+    margin: 8px 0;
+}
+
+.bt4 input {
+    margin: 8px 0;
+}

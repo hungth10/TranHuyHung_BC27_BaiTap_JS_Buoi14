@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,77 @@
     <title>Homework JS buoi 4</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <!-- sắp xếp theo thứ tự tăng dần -->
+    <section class="bt bt1">
+        <h1>Bài tập 1</h1>
+        <div class="box">
+            <input id="bt1-num1" type="text" value="" placeholder="hãy nhập số vào"> <br>
+            <input id="bt1-num2" type="text" value="" placeholder="hãy nhập số vào"> <br>
+            <input id="bt1-num3" type="text" value="" placeholder="hãy nhập số vào"> <br>
+        </div>
+
+        <button onclick="arrangeBT1()" style="margin: 10px 0;">Sắp xếp theo thứ tự tăng dần</button>
+
+        <div class="box-result" id="bt1-result">
+            
+        </div>
+    </section>
+
+    <!-- chào hỏi các user -->
+    <section class="bt bt2">
+        <h1>Bài tập 2</h1>
+
+        <div class="box">
+            <label for="bt2-input">Ai đang sử dụng</label> <br>
+            <input id="bt2-input" type="text" value="" placeholder="Hãy nhập tên đăng nhập"> <br>
+        </div>
+       
+        <button onclick="greeting()" style="margin: 10px 0;">đăng nhập</button>
+
+        <div class="box-result" id="bt2-result"></div>
+    </section>
+
+    <!-- số lẻ, số chẵn -->
+    <section class="bt bt3">
+        <h1>Bài tập 3</h1>
+
+        <div class="box">
+            <input id="bt3-num1" type="text" value="" placeholder="hãy nhập số vào"> <br>
+            <input id="bt3-num2" type="text" value="" placeholder="hãy nhập số vào"> <br>
+            <input id="bt3-num3" type="text" value="" placeholder="hãy nhập số vào"> <br>
+        </div>
+
+        <button onclick="chanle ()" style="margin: 10px 0;">đếm số lẻ, số chẵn</button>
+
+        <div class="box-result" id="bt3-result"></div>
+
+    </section>
+
+    <!-- xác định loại tam giác -->
+    <section class="bt bt4">
+        <h1>Bài tập 4</h1>
+
+        <div class="box">
+            <h2>Hãy nhập vào chiều dài các cạnh của tam giác</h2>
+            <input id="bt4-num1" type="text" value="" placeholder="cạnh a"> <br>
+            <input id="bt4-num2" type="text" value="" placeholder="cạnh b"> <br>
+            <input id="bt4-num3" type="text" value="" placeholder="cạnh c"> <br>
+        </div>
+
+        <button onclick="triangle()" style="margin: 10px 0;">Submit</button>
+
+        <div class="box-result" id="bt4-result"></div>
+
+    </section>
+
+    <!-- Javascript -->
+    <script src="./bt1-sapxep.js"></script>
+    <script src="./bt2-chaohoi.js"></script>
+    <script src="./bt3-solesochan.js"></script>
+    <script src="./bt4-tamgiac.js"></script>
+
 </body>
+
 </html>
