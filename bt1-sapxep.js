@@ -24,25 +24,25 @@ function arrangeBT1() {
 
     if (bt1Num1 <= bt1Num2 && bt1Num1  <= bt1Num3) {
         if (bt1Num2 <= bt1Num3) {
-            bt1result.innerHTML = bt1Num1 + '-' + bt1Num2 + '-' + bt1Num3
+            bt1result.innerHTML = bt1Num1 + ',' + bt1Num2 + ',' + bt1Num3
         } else {
-            bt1result.innerHTML = bt1Num1 + '-' + bt1Num3 + '-' + bt1Num2
+            bt1result.innerHTML = bt1Num1 + ',' + bt1Num3 + ',' + bt1Num2
         }
     }
 
     if (bt1Num2 <= bt1Num1 && bt1Num2  <= bt1Num3) {
         if (bt1Num1 <= bt1Num3) {
-            bt1result.innerHTML = bt1Num2 + '-' + bt1Num1 + '-' + bt1Num3
+            bt1result.innerHTML = bt1Num2 + ',' + bt1Num1 + ',' + bt1Num3
         } else {
-            bt1result.innerHTML = bt1Num2 + '-' + bt1Num3 + '-' + bt1Num1
+            bt1result.innerHTML = bt1Num2 + ',' + bt1Num3 + ',' + bt1Num1
         }
     }
 
     if (bt1Num3 <= bt1Num1 && bt1Num3  <= bt1Num2) {
         if (bt1Num1 <= bt1Num2) {
-            bt1result.innerHTML = bt1Num3 + '-' + bt1Num1 + '-' + bt1Num2
+            bt1result.innerHTML = bt1Num3 + ',' + bt1Num1 + ',' + bt1Num2
         } else {
-            bt1result.innerHTML = bt1Num3 + '-' + bt1Num2 + '-' + bt1Num1
+            bt1result.innerHTML = bt1Num3 + ',' + bt1Num2 + ',' + bt1Num1
         }
     }
 }
